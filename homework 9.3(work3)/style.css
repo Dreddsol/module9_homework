@@ -1,0 +1,43 @@
+.block_one{
+    display: flex;
+    flex-direction: column;
+}
+.field{
+    width: 240px;
+height: 20px;
+}
+.btn{
+    background: red;
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+}
+.btn:hover{
+    box-shadow:0px -5px 0 #088 inset;
+}
+.btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.card {
+	
+	width: 200px;
+	margin: 20px;
+    display: flex;
+    
+  }
+  
+  .card-image {
+	display: block;
+	width: 200px;
+	height: 150px;
+  }
+  .error {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2vw;
+}

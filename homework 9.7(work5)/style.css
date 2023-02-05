@@ -1,0 +1,31 @@
+
+.field1,
+.field2{
+    width: 300px;
+    height: 20px;
+}
+.field1{
+  margin-bottom: 10px;
+}
+.btn{
+    background: red;
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    box-shadow:0px -5px 0 #088 inset;
+}
+.btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.result{
+ display: grid;
+ grid-template-columns: 150px 150px 150px;
+  grid-gap: 10%;
+}
